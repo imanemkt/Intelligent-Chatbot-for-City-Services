@@ -1,0 +1,4968 @@
+[
+  {
+    "text": "When's the next bus 20 to Nador?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 20,
+        "end": 22,
+        "label": "bus_line"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Does line 18 run to Beninsar?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 10,
+        "end": 12,
+        "label": "bus_line"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bus 19 schedule please, going to Farkhana",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "label": "bus_line"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "I need to catch the 22 from Arouit",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 20,
+        "end": 22,
+        "label": "bus_line"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How often does the 8 pass through Arekmane?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "label": "bus_line"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What time is the last 26 from Zaio to Faculty?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 22,
+        "end": 24,
+        "label": "bus_line"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "label": "district"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Line 21 from Selouane - when does it leave?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "bus_line"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Is there a direct bus to Nador? Line 20 maybe?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "label": "district"
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Checking 18 schedule for Farkhana-Beninsar route",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 9,
+        "end": 11,
+        "label": "bus_line"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Tell me about bus 19 to Boudinar",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 18,
+        "end": 20,
+        "label": "bus_line"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "22 departures from Arouit?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How do I get to Faculty by bus 26",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 31,
+        "end": 33,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Next 8 leaving Arekmane for Boudinar",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "label": "bus_line"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "When's bus line 21 from Selouane",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "label": "bus_line"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Any bus going to Beninsar from Farkhana? Maybe the 18?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "district"
+      },
+      {
+        "start": 51,
+        "end": 53,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Need schedule for line 20, circular route Boudinar",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 23,
+        "end": 25,
+        "label": "bus_line"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Do you have times for 19 Farkhana Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 22,
+        "end": 24,
+        "label": "bus_line"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bus info line 22 Arouit Boudinar",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "label": "bus_line"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "26 to Faculty schedule pls",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 6,
+        "end": 13,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What are the 8 times from Arekmane",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "label": "bus_line"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Garbage day in Boudinar?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "When do they pick up trash in Farkhana",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Waste collection schedule for Beninsar tomorrow",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "label": "district"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Is today garbage day in Boudinar?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "label": "date"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Trash pickup times Faculty 02/02/2026",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Do they collect rubbish in Nador this evening?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "label": "district"
+      },
+      {
+        "start": 33,
+        "end": 45,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Recycling collection in Selouane next Monday",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "What's the waste schedule for Arouit next week",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "label": "district"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Need to know garbage collection Arekmane on 12/12/2025",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "label": "district"
+      },
+      {
+        "start": 44,
+        "end": 54,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Farkhana trash day?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "When's garbage collected Beninsar",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Will waste be picked up today in Zaio",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "label": "date"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Rubbish collection Faculty today",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Tell me the collection day for Nador",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Waste removal schedule in Selouane",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Does waste get collected tomorrow in Arouit",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "label": "date"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Arekmane rubbish pickup schedule",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What day is trash collection in Farkhana this evening",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "label": "district"
+      },
+      {
+        "start": 41,
+        "end": 53,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Next waste collection Iheddaden",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Garbage schedule next Monday Iheddaden",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "label": "date"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Weather today in Iheddaden?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "label": "date"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What's it like in Arouit",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Rain forecast for Faculty tomorrow",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "label": "district"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "How's the weather looking in Beninsar this evening",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      },
+      {
+        "start": 38,
+        "end": 50,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Temperature in Farkhana on 06/02/2026?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Will it rain in Zaio next Monday",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "label": "district"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Weather conditions Selouane today",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "label": "district"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Is it going to be sunny in Arekmane next week",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "label": "district"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Tell me Iheddaden weather forecast",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Hot or cold in Arouit this evening",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "district"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Faculty weather tomorrow",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "district"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "What's the temperature like today Beninsar",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "label": "date"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Checking weather Farkhana next Monday",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Need weather info for Zaio on 01/01/2026",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Selouane forecast next week",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Is it raining in Arekmane",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Weather report Nador today",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "district"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "How cold will it be in Arouit tomorrow",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "label": "district"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Faculty weather this evening please",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "district"
+      },
+      {
+        "start": 16,
+        "end": 28,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "What's the forecast for Beninsar next Monday",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "How do I get a birth certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Need help applying for driving license",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What documents for passport application",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Marriage certificate procedure please",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Steps to obtain residence certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 16,
+        "end": 37,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "I want to apply for a passport",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Tell me about getting a driving license",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Birth certificate - how to get one?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Process for marriage certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 12,
+        "end": 32,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Can you help with residence certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 18,
+        "end": 39,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Passport requirements",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What's needed for a birth certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Driving license application help",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get marriage certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 15,
+        "end": 35,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Info on residence certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 8,
+        "end": 29,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Applying for passport, what do I need",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Birth certificate documents required",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "How to request a driving license",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 32,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Getting a marriage certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 10,
+        "end": 30,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Residence certificate help needed",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What time does bus 20 arrive at Nador?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 19,
+        "end": 21,
+        "label": "bus_line"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Can I take line 18 to get to Beninsar?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "label": "bus_line"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Show me the 19 schedule from Farkhana to Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "label": "bus_line"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Last bus 22 departing from Arouit today",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 9,
+        "end": 11,
+        "label": "bus_line"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "district"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Does the 8 stop at Arekmane?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "label": "bus_line"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "I'm at Zaio, when's the next 26 to Faculty?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "district"
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "label": "bus_line"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bus 21 timetable Selouane please",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "label": "bus_line"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Which buses go to Nador from Farkhana?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Line 18 frequency Beninsar Arekmane",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "bus_line"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "First 19 in the morning from Farkhana",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 6,
+        "end": 8,
+        "label": "bus_line"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Is line 22 running today to Arouit?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "label": "bus_line"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "date"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "26 bus stops between Faculty and Zaio",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "district"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How long does the 8 take from Arekmane to Nador?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "label": "bus_line"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "label": "district"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Next departure 21 Selouane",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "label": "bus_line"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Getting to Beninsar by bus tomorrow morning",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 43,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "20 schedule circular Nador this evening",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Where does line 19 stop in Farkhana?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "label": "bus_line"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Morning buses 22 from Arouit on 05/02/2026",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "label": "bus_line"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "district"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Fastest way to Faculty by bus?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "When does 8 pass Arekmane next Monday",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 10,
+        "end": 11,
+        "label": "bus_line"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Collection schedule Arouit this week",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "What day do they collect garbage in Farkhana?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 36,
+        "end": 44,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar waste pickup on 25/01/2026",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Will they pick up trash tomorrow in Zaio?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "label": "date"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Faculty garbage collection times next week",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "district"
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Does Nador have collection this evening?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "When's recycling day Iheddaden?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Missed trash day Arouit, when's next?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Waste removal Arekmane today or tomorrow",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "label": "district"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Farkhana rubbish schedule next Monday",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Is it garbage day in Beninsar?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Collection days for Zaio this week",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 34,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "When do bins get emptied in Faculty",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Nador waste collection schedule",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Trash pickup Selouane on 01/02/2026",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Can I put bins out today Arouit",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "label": "date"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Recycling schedule Arekmane tomorrow",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "label": "district"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Did I miss collection this evening Farkhana",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "label": "date"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Next collection date Beninsar",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What time garbage Zaio next Monday",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "district"
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "How's the weather in Nador right now?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Arouit weather today",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "label": "district"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Will it rain tomorrow in Boudinar?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "date"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Temperature for Beninsar this evening please",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "What's the forecast Farkhana on 31/12/2025",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "label": "district"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Sunny or cloudy in Zaio next Monday?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "label": "district"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Check weather Selouane today",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "label": "district"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Is it going to be cold Arekmane next week?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "district"
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Nador weather conditions",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Hot day in Arouit this evening",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "district"
+      },
+      {
+        "start": 18,
+        "end": 30,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Tomorrow's weather Faculty",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "date"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How cold is it today in Beninsar",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "date"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Farkhana forecast next Monday",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 18,
+        "end": 29,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Zaio weather on 20/12/2025",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "district"
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Next week forecast for Selouane",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "date"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Raining in Boudinar?",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Nador temperature today",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "district"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Cold weather Arouit tomorrow morning",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "label": "district"
+      },
+      {
+        "start": 20,
+        "end": 36,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Faculty weather report this evening",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "district"
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar next Monday weather",
+    "intent": "weather",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 9,
+        "end": 20,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Where can I get my birth certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Driving license application process",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Requirements for passport",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "How long to get marriage certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 16,
+        "end": 36,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "I need a residence certificate urgently",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 9,
+        "end": 30,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Passport renewal procedure",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Getting my driving license, what steps?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Birth certificate for my child",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What office handles marriage certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Residence certificate fees and documents",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Cost of passport application",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Birth certificate copy request",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Driving license exam schedule",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Marriage certificate translation",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "How do I renew residence certificate",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 15,
+        "end": 36,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Passport photos requirements",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Lost birth certificate, need replacement",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Driving license medical exam",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Online marriage certificate application",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 7,
+        "end": 27,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Residence certificate documents needed",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What's the schedule for bus 20?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 28,
+        "end": 30,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Bus route 18 passing through Beninsar and Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 10,
+        "end": 12,
+        "label": "bus_line"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How many stops does line 19 have?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Trying to get from Arouit to Faculty, which bus?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "district"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Is the 8 delayed today?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "label": "bus_line"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Bus 26 from Zaio running tomorrow?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "label": "bus_line"
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "label": "district"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Does 21 operate on weekends in Selouane?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "bus_line"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Can you give me line 20 times please",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 21,
+        "end": 23,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "18 to Farkhana running late?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 6,
+        "end": 14,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Need to catch 19 in about 30 minutes from Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "label": "bus_line"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Last 22 of the day Arouit?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "bus_line"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Route map for bus 26",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 18,
+        "end": 20,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Where can I catch the 8 in Arekmane?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 22,
+        "end": 23,
+        "label": "bus_line"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "21 every hour from Selouane?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "I missed the 20, when's the next one to Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 13,
+        "end": 15,
+        "label": "bus_line"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Line 18 stops at Boudinar right?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "bus_line"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Earliest 19 tomorrow morning Farkhana",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 9,
+        "end": 11,
+        "label": "bus_line"
+      },
+      {
+        "start": 12,
+        "end": 28,
+        "label": "date"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bus line 22 weekend schedule Arouit to Faculty",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 9,
+        "end": 11,
+        "label": "bus_line"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "label": "district"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "26 still running this late?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "Frequency of line 8 Arekmane to Nador",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "label": "bus_line"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "district"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What time does 21 start service from Selouane",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "label": "bus_line"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Express bus to Nador from Beninsar",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "district"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How much is the 20 fare?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "label": "bus_line"
+      }
+    ]
+  },
+  {
+    "text": "18 going via Farkhana or direct?",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "bus_line"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Any buses leaving Arouit in the next hour",
+    "intent": "bus_schedule",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "What time is garbage collection Arouit?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Trash not collected today in Farkhana, why?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "label": "date"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Collection schedule for Beninsar area",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Is tomorrow garbage day Zaio?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 3,
+        "end": 11,
+        "label": "date"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Faculty waste removal times next week",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "district"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Missed the collection in Nador, when's next?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bins out tonight Boudinar?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "label": "date"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Arekmane garbage pickup on 12/01/2025",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Recycling day Arouit this week or next",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "label": "district"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Farkhana collection delayed?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "When do they come for trash Beninsar",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Waste schedule change Zaio?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Special collection this evening Faculty",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "label": "date"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Do I need to separate recycling in Nador?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Holiday collection schedule Selouane",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Large item pickup Arekmane next Monday",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "label": "district"
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Garbage truck didn't come today Arouit",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "label": "date"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Weekly collection day Farkhana?",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Bins full, when's next collection Beninsar",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 34,
+        "end": 42,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Waste management contact Zaio",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Green waste collection Faculty tomorrow",
+    "intent": "waste_collection",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "label": "district"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "date"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find the Prefecture of Nador-Driouch?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 21,
+        "end": 48,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is the Prefecture of Nador-Driouch located?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 40,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I get to the Prefecture of Nador-Driouch?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 20,
+        "end": 47,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Location of the Prefecture of Nador-Driouch please",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 43,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find the Urban Municipality of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 21,
+        "end": 48,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is the Urban Municipality of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 40,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I reach the Urban Municipality of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 19,
+        "end": 46,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Municipality of Nador address please",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find Nador Urban Agency?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Nador Urban Agency located?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I get to Nador Urban Agency?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 34,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Nador Urban Agency address",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find the Municipal Treasury of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 21,
+        "end": 48,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is the Municipal Treasury of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 40,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I reach the Municipal Treasury of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 19,
+        "end": 46,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipal Treasury of Nador location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find Arouit Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 44,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Arouit Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I get to Arouit Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 43,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find Beninsar Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 46,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Beninsar Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 38,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar Administrative Annex location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find Selouane Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 46,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Selouane Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 38,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I reach Selouane Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 15,
+        "end": 44,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Selouane Administrative Annex address",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I apply for a National Identity Card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 46,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get a National Identity Card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 39,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I get a Family booklet?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for a Family booklet?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 37,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I request a building permit?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for a building permit?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I get a tax receipt?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I obtain a tax receipt?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I get a house tax receipt?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 35,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for a house tax receipt?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I do vehicle registration?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 15,
+        "end": 35,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for vehicle registration?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 21,
+        "end": 41,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I apply for a ramed card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get a ramed card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I apply for a cnss card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get a cnss card?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I request an Enrollment Certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 45,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get an Enrollment Certificate?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 18,
+        "end": 40,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I submit a Scholarship Application?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 21,
+        "end": 44,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for a Scholarship Application?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 46,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I apply for Commercial Registry?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 22,
+        "end": 41,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I get a Commercial Registry?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I request a Water Connection?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for a Water Connection?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where can I request an Electricity Connection?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 23,
+        "end": 45,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Where do I apply for an Electricity Connection?",
+    "intent": "admin_procedure",
+    "entities": [
+      {
+        "start": 24,
+        "end": 46,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the number for Police Emergency?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How can I contact the Police Emergency?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Police Emergency phone number please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the emergency number for the Royal Gendarmerie?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 37,
+        "end": 54,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How do I contact the Royal Gendarmerie?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 21,
+        "end": 38,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Royal Gendarmerie emergency contact",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the Fire Department emergency number?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How can I call the Fire Department?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 19,
+        "end": 34,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Fire Department phone number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the number for Medical Emergency (SAMU)?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 23,
+        "end": 47,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How do I contact Medical Emergency (SAMU)?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Medical Emergency SAMU contact number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the number for Civil Protection?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How can I reach Civil Protection?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 16,
+        "end": 32,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Civil Protection emergency number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What is the emergency number for ONEE?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "How can I contact ONEE for water or electricity issues?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "ONEE emergency contact number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need to call the police, what number should I dial?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "There is a fire, how do I reach the Fire Department?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 36,
+        "end": 51,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Someone is injured, how can I contact Medical Emergency?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 38,
+        "end": 55,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Who should I call for Civil Protection emergencies?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Water outage, how do I contact ONEE?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need to call Police Emergency right now",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Police Emergency number in Nador",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Is Police Emergency available 24/7?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Connect me to Police Emergency please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I want to report a crime to Police Emergency",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 28,
+        "end": 44,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Royal Gendarmerie emergency line",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need Royal Gendarmerie assistance",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Call Royal Gendarmerie for me",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Royal Gendarmerie contact in Arouit",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How do I reach Royal Gendarmerie urgently?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Royal Gendarmerie phone please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Fire Department emergency contact",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need Fire Department now!",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Call the Fire Department quickly",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Fire Department number for Beninsar",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "emergency_type"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "Connect me with Fire Department",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "There's a fire, call Fire Department",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 21,
+        "end": 36,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Fire Department hotline please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need Medical Emergency SAMU now",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 30,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Medical Emergency number please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Call Medical Emergency (SAMU) urgently",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 5,
+        "end": 29,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "SAMU emergency contact",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Someone needs Medical Emergency help",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 14,
+        "end": 31,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Medical Emergency (SAMU) in Nador",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "label": "emergency_type"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "I need SAMU right now",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Civil Protection emergency number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need to call Civil Protection",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Civil Protection contact please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Connect me to Civil Protection urgently",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Civil Protection phone number in Zaio",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "label": "emergency_type"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How do I reach Civil Protection?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "ONEE emergency number please",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need to contact ONEE urgently",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Water leak, call ONEE",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Electricity out, ONEE number?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "ONEE contact for Farkhana",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "emergency_type"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "district"
+      }
+    ]
+  },
+  {
+    "text": "How do I call ONEE for emergency?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "ONEE hotline for water issues",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "What's the police number?",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need police help urgently",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Call the police now",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "Emergency fire contact",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need fire brigade number",
+    "intent": "contact_emergency",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "emergency_type"
+      }
+    ]
+  },
+  {
+    "text": "I need to visit Prefecture of Nador-Driouch",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 43,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Prefecture of Nador-Driouch opening hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I get to Prefecture of Nador-Driouch?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 43,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Prefecture of Nador-Driouch phone number",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Services at Prefecture of Nador-Driouch",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 12,
+        "end": 39,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "What documents can I get at Prefecture of Nador-Driouch?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 28,
+        "end": 55,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Prefecture of Nador-Driouch location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for Prefecture of Nador-Driouch",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 43,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Municipality of Nador contact",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need Urban Municipality of Nador address",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 7,
+        "end": 34,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Urban Municipality of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 36,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Municipality of Nador services",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Call Urban Municipality of Nador",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 5,
+        "end": 32,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Municipality of Nador working hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How to reach Urban Municipality of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 40,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Municipality of Nador email",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need Nador Urban Agency contact",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Nador Urban Agency phone number",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Nador Urban Agency located?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Nador Urban Agency opening times",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How do I contact Nador Urban Agency?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Nador Urban Agency services",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Building permit at Nador Urban Agency",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 19,
+        "end": 37,
+        "label": "office_name"
+      },
+      {
+        "start": 0,
+        "end": 15,
+        "label": "document_type"
+      }
+    ]
+  },
+  {
+    "text": "Nador Urban Agency address please",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipal Treasury contact info",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need to visit Municipal Treasury",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 16,
+        "end": 34,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipal Treasury phone number",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Municipal Treasury?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipal Treasury hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Pay taxes at Municipal Treasury",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 31,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipal Treasury of Nador location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "How to reach Municipal Treasury of Nador?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 40,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Arouit Administrative Annex contact",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need Arouit Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 7,
+        "end": 34,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Arouit Administrative Annex phone",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Services at Arouit Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 12,
+        "end": 39,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Arouit Administrative Annex hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Documents from Arouit Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 15,
+        "end": 42,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar Administrative Annex address",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I'm going to Beninsar Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 42,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar Administrative Annex contact",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Beninsar Administrative Annex phone number",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is Beninsar Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 9,
+        "end": 38,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Services at Beninsar Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 12,
+        "end": 41,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Selouane Administrative Annex location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need Selouane Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 7,
+        "end": 36,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Selouane Administrative Annex phone",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Selouane Administrative Annex hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where can I find Selouane Administrative Annex?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 17,
+        "end": 46,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Contact for Selouane Administrative Annex",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 12,
+        "end": 41,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I need the Prefecture contact",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is the Prefecture?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Municipality phone number",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for the Municipality",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Urban Agency location",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Where is the Treasury?",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "office_name"
+      }
+    ]
+  },
+  {
+    "text": "Treasury office hours",
+    "intent": "find_administration",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "office_name"
+      }
+    ]
+  }
+]
